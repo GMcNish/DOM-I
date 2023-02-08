@@ -78,17 +78,17 @@ mainNum1.textContent = siteContent["main-content"]["features-h4"]
 mainNum2.textContent = siteContent["main-content"]["features-content"]
 
 const allH4 = document.querySelectorAll('h4')
-const allPee = document.querySelectorAll('.text-content p')
+const allParag = document.querySelectorAll('.text-content p')
 
-console.log(allPee)
+console.log(allParag)
 allH4[1].textContent = siteContent["main-content"]["about-h4"]
-allPee[1].textContent = siteContent["main-content"]["about-content"]
+allParag[1].textContent = siteContent["main-content"]["about-content"]
 allH4[2].textContent = siteContent["main-content"]["services-h4"]
-allPee[2].textContent = siteContent["main-content"]["services-content"]
+allParag[2].textContent = siteContent["main-content"]["services-content"]
 allH4[3].textContent = siteContent["main-content"]["product-h4"]
-allPee[3].textContent = siteContent["main-content"]["product-content"]
+allParag[3].textContent = siteContent["main-content"]["product-content"]
 allH4[4].textContent = siteContent["main-content"]["vision-h4"]
-allPee[4].textContent = siteContent["main-content"]["vision-content"]
+allParag[4].textContent = siteContent["main-content"]["vision-content"]
 
 const contactTitle = document.querySelector(".contact h4");
 const contactAddress = document.querySelector(".contact p");
