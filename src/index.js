@@ -52,7 +52,7 @@ accentImg.src = siteContent["images"]["accent-img"];
 
 // Footer Link 
 
-const footer = document.querySelector("footer");
+const footer = document.querySelector("footer a");
 footer.textContent = siteContent.footer.copyright;
 footer.classList.add('bold');
 
